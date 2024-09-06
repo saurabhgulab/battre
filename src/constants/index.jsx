@@ -22,8 +22,9 @@ import {
   plusSquare,
   protopie,
   raindrop,
-  recording01,
-  recording03,
+  battery1,
+  usbCharger,
+  remoteKey,
   roadmap1,
   roadmap2,
   roadmap3,
@@ -46,34 +47,34 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "One",
+    url: "#one",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "EPIC",
+    url: "#epic",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "LO:ev",
+    url: "#loev",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Storie",
+    url: "#storie",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Test Ride",
+    url: "#testride",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Book Now",
+    url: "#booknow",
     onlyMobile: true,
   },
 ];
@@ -94,18 +95,25 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Stylish Metal Panels",
+  "Spacious and roomy",
+  "103 kms per charge (IDC) Range",
+  "Detachable AIS 156 Certified Battery Pack",
+];
+export const loevServices = [
+  "Affordable Premium Scooter",
+  "Detachable LFP/NMC/Graphene Battery",
+  "Remote Key & Anti Theft Alarm",
+];
+export const oneServices = [
+  "Affordable Premium Scooter",
+  "Detachable LFP/NMC/Graphene Battery",
+  "Reverse Gear",
+  "Remote Key & Anti Theft Alarm",
+  "USB Charger",
 ];
 
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
+export const battreServicesIcons = [remoteKey, usbCharger, battery1];
 
 export const roadmap = [
   {
@@ -149,16 +157,18 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "24x7 Road Side Assistance",
+    text: "Toll Free 1800 266 6264",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "21+ States",
+    text: "More than 400+ Outlets",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Designed & Developed in India",
+    text: "20+ Design Patents Received",
   },
 ];
 
@@ -224,35 +234,37 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "ONE",
+    description: "Urban Confidence Redefined.",
+    price: "73900",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "2 years Warranty on Battery & Motor.",
+      "1 year Warranty on Charger, Controller & Convertor.",
+      "80 KM Riding Range on 2.5 hrs Charging Time.",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "EPIC",
+    description: "Add EPIC to your EV",
+    price: "94999",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "3 years or 30000 Kms Warranty on MCB, Battery, Motor & Controller.",
+      "1 year Warranty on Charger & Convertor.",
+      "150 KM Riding Range per Charge",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Lo:EV",
+    price: "59990",
+    description: "Commuting Made Easy with Lo:EV",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
+      "Mileage of 60-150 Kms",
+      "Charging time 2.5 Hrs - 8 Hrs",
       "Ability to explore the app and its features without any cost",
+      "2 years Warranty on Battery & Motor.",
+      "1 year Warranty on Charger, Controller & Convertor.",
     ],
   },
 ];
@@ -260,16 +272,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Eco-Friendly",
+    text: "Electric scooters produce zero emissions, reducing your carbon footprint and contributing to a cleaner environment.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Cost-Effective",
+    text: "They are much cheaper to operate than gasoline-powered vehicles, with lower electricity costs, fewer maintenance requirements, and no fuel expenses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -277,16 +289,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Low Maintenance",
+    text: "Electric scooters have fewer moving parts compared to traditional scooters, leading to lower maintenance costs and longer lifespan.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Convenient and Lightweight",
+    text: "Most electric scooters are compact, making them easy to park, maneuver, and store. Many are also foldable for easy transport",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -294,16 +306,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Quiet Operation",
+    text: "Unlike gas-powered vehicles, electric scooters operate silently, reducing noise pollution and providing a peaceful ride.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Government Incentives",
+    text: "Many governments offer subsidies, tax benefits, and rebates for purchasing electric scooters, making them more affordable",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

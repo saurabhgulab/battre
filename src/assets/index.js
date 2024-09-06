@@ -69,6 +69,15 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
+import icici from "./finance/icici.png";
+import bajaj from "./finance/bajaj.png";
+import cfc from "./finance/cfc.png";
+import ezfinanz from "./finance/ezfinanz.png";
+import zest from "./finance/zest.png";
+import kotak from "./finance/kotak.svg";
+import loantap from "./finance/loantap.png";
+import vidharbhkonkan from "./finance/vidharbhakonkan.png";
+
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
@@ -139,6 +148,14 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  icici,
+  bajaj,
+  cfc,
+  ezfinanz,
+  zest,
+  kotak,
+  loantap,
+  vidharbhkonkan,
   discordBlack,
   facebook,
   instagram,
